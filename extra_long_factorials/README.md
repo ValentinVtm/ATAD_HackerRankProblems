@@ -32,6 +32,7 @@ Purpose:
 This function performs the multiplication of a number represented as a vector of digits (num) by an integer (factor).
 
 Step-by-step Explanation:
+
 	1.	num is a mutable reference to a vector where each element is a digit of the big number.
 	    For example, the number 123 is stored as [3, 2, 1] (digits in reverse order).
 
@@ -65,6 +66,7 @@ Purpose:
 This function computes the factorial of a number  n  by iteratively multiplying all numbers from 2 to  n  with a vector result that holds the factorial value.
 
 Step-by-step Explanation:
+
 	1.	Initialization:
 	    result is initialized to [1], representing the number 1.
 
@@ -103,6 +105,7 @@ Purpose:
 The main function reads an integer  n  from the user, then calls extra_long_factorials to compute and print  n! .
 
 Step-by-step Explanation:
+
 	1.	Input Handling:
 	    stdin reads the input.
 	    stdin.lock().lines() returns an iterator over input lines.

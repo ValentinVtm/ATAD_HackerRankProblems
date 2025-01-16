@@ -5,7 +5,7 @@ Step 1: Problem Breakdown
 The task is to determine if a given array A can be sorted using a specific 3-element rotation operation, repeated any number of times. The key insight here is to use the concept of inversions:
 	•	An inversion is a pair of indices (i, j) such that:
 
-A[i] > A[j] \quad \text{and} \quad i < j
+A[i] > A[j] and i < j
 
 	•	If the total number of inversions is even, the array can be sorted using the rotation operation. Otherwise, it cannot.
 
